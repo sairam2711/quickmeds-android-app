@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".Add_address">
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="635dp"
+        >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="#F40707"
+            android:text="Add delivery address"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="40dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="23dp"
+
+            android:layout_marginTop="209dp"
+            android:text="+add alternate phone number"
+            android:textColor="@color/purple_700"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="316dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="26dp"
+            android:background="@drawable/background_shape"
+            android:hint="Full name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="312dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="133dp"
+            android:layout_marginEnd="27dp"
+            android:background="@drawable/background_shape"
+            android:hint="Phone number"
+            android:inputType="phone" />
+
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="312dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="391dp"
+            android:layout_marginEnd="23dp"
+            android:background="@drawable/background_shape"
+            android:hint="House no, Building Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/address2"
+            android:layout_width="312dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="480dp"
+            android:layout_marginEnd="23dp"
+            android:background="@drawable/background_shape"
+            android:hint="Road name, Area, Colony"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/pin_code"
+            android:layout_width="153dp"
+            android:layout_height="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="239dp"
+            android:layout_marginEnd="189dp"
+            android:background="@drawable/background_shape"
+            android:hint="pin code"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="153dp"
+            android:layout_height="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="321dp"
+            android:layout_marginEnd="186dp"
+            android:background="@drawable/background_shape"
+            android:hint="state"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="133dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="321dp"
+            android:layout_marginEnd="19dp"
+            android:background="@drawable/background_shape"
+            android:hint="city"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/current_location"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/background_shape"
+            android:text="use my location" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:onClick="savebutton"
+            android:layout_width="296dp"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="590dp"
+
+            android:backgroundTint="#CDDC39"
+            android:text="save address"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

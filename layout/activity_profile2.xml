@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8C5C5"
+    tools:context=".Profile2">
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="182dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:textColor="#F60B0B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/MyOrders"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/white"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="Orders"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/my_cart"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="51dp"
+        android:backgroundTint="@color/white"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="My Cart"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="@color/white"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="Help Center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="173dp"
+        android:text=" Account Settings"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="273dp"
+        android:background="@color/white"
+        android:text=" Notification Setting"
+
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="199dp"
+        android:background="@color/white"
+
+        android:text=" Saved Address"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="248dp"
+
+        android:layout_marginEnd="1dp"
+        android:background="@color/white"
+        android:text=" Edit Profile"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="223dp"
+        android:background="@color/white"
+        android:text=" Select Language"
+
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="163dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="-2dp"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="#F60B0B"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/lodO"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/background_shape"
+        android:backgroundTint="@color/white"
+        android:text="log out"
+        android:textSize="20dp" />
+
+</RelativeLayout>

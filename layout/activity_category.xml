@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".category">
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="categories"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#FF5722"
+        />
+
+    <TextView
+        android:id="@+id/sugar"
+        android:layout_width="312dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="23dp"
+        android:text="sugar subsitutes"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/background_shape"
+        android:backgroundTint="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/blood"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/background_shape"
+        android:backgroundTint="@color/purple_200"
+        android:text="Blood Glucose Monitors"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/juices"
+        android:layout_width="306dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="125dp"
+        android:text="Juices and Vinegars"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/background_shape"
+        android:backgroundTint="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="312dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="174dp"
+        android:text="Test strips and Lancets"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/background_shape"
+        android:backgroundTint="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/balm"
+        android:layout_width="307dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="251dp"
+        android:text="balms,gels and sprays"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/background_shape"
+        android:backgroundTint="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/ortho"
+        android:layout_width="316dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="26dp"
+        android:text="orthopaedic supports"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/background_shape"
+        android:backgroundTint="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="313dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="184dp"
+        android:text="body massager"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/background_shape"
+        android:backgroundTint="@color/purple_200"/>
+
+    <TextView
+        android:id="@+id/pain"
+        android:layout_width="310dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="133dp"
+        android:background="@drawable/background_shape"
+        android:backgroundTint="@color/purple_200"
+        android:text="pain relief and massage oils"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

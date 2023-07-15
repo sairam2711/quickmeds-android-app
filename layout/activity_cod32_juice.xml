@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".cod32_juice">
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/white"
+
+        android:textSize="35dp" />
+
+    <Button
+        android:onClick="aloevera"
+        android:id="@+id/aloevera_button"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="28dp"
+        android:text="continue"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+     <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="530dp">
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="900dp">
+
+              <ImageView
+                  android:id="@+id/imageView3"
+                  android:layout_width="match_parent"
+                  android:layout_height="324dp"
+                  android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginStart="0dp"
+                  android:layout_marginTop="-2dp"
+                  android:background="@color/white"
+                  app:srcCompat="@drawable/aloveradia" />
+
+              <TextView
+                  android:id="@+id/product_name"
+                  android:layout_width="295dp"
+                  android:layout_height="62dp"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentEnd="true"
+                  android:layout_marginTop="330dp"
+                  android:layout_marginEnd="64dp"
+                  android:background="@color/white"
+
+                  android:textColor="@color/black"
+                  android:textSize="20dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="102dp"
+                  android:layout_height="62dp"
+                  android:layout_alignTop="@id/imageView3"
+                  android:layout_alignParentStart="true"
+                  android:layout_marginStart="258dp"
+                  android:layout_marginTop="330dp"
+                  android:background="@color/white" />
+
+              <TextView
+                  android:id="@+id/product_owner"
+                  android:layout_width="359dp"
+                  android:layout_height="37dp"
+                  android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginStart="1dp"
+                  android:layout_marginTop="385dp"
+                  android:background="@color/white"
+
+                  android:textColor="@color/black"
+                  android:textSize="14sp" />
+
+              <TextView
+                  android:id="@+id/quantity"
+                  android:layout_width="match_parent"
+                  android:layout_height="34dp"
+                  android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginStart="-1dp"
+                  android:layout_marginTop="416dp"
+                  android:background="@color/white"
+
+                  android:textColor="#5E0303"
+                  android:textSize="14sp" />
+
+              <TextView
+                  android:id="@+id/when_delivery"
+                  android:layout_width="136dp"
+                  android:layout_height="36dp"
+                  android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginStart="0dp"
+                  android:layout_marginTop="438dp"
+                  android:background="@color/white"
+
+                  android:textColor="#5E0303"
+                  android:textSize="14sp" />
+
+              <TextView
+                  android:layout_width="240dp"
+                  android:layout_height="33dp"
+                  android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginStart="120dp"
+                  android:layout_marginTop="441dp"
+                  android:background="@color/white"
+                  android:text=",Monday"
+                  android:textColor="#5E0303"
+                  android:textSize="14sp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:id="@+id/discount"
+                  android:layout_width="335dp"
+                  android:layout_height="53dp"
+                  android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginStart="11dp"
+                  android:layout_marginTop="483dp"
+                  android:background="@drawable/background_shape"
+
+                  android:textColor="#780404"
+
+                  android:textSize="30dp" />
+
+              <ImageView
+                  android:id="@+id/prescriptionImage"
+                  android:layout_width="322dp"
+                  android:layout_height="285dp"
+                  android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginStart="12dp"
+                  android:layout_marginTop="553dp" />
+
+              <Button
+                  android:id="@+id/prescription"
+                  android:layout_width="297dp"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentStart="true"
+                  android:layout_alignParentBottom="true"
+                  android:layout_marginStart="21dp"
+                  android:layout_marginBottom="0dp"
+                  android:text="upload your prescription" />
+
+
+          </RelativeLayout>
+      </ScrollView>
+</RelativeLayout>
